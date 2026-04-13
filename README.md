@@ -1,4 +1,3 @@
-Markdown
 # 🔴🔵 Four in a Row (Connect 4)
 
 A classic local 2-player Connect 4 game built with Python and Pygame. 
@@ -13,31 +12,28 @@ To run this game, you will need **Python 3** and the Pygame Community Edition li
 2. Install Pygame-CE by running this command in your terminal:
    ```bash
    py -m pip install pygame-ce
-🚀 How to Run
-Clone or download this repository.
+   ```
 
-Open your terminal and navigate to the project folder.
+## 🚀 How to Run
 
-Run the main script:
+1. Clone or download this repository.
+2. Open your terminal and navigate to the project folder.
+3. Run the main script:
+   ```bash
+   py main.py
+   ```
+   *(On Mac/Linux, use `python3 main.py`)*
 
-Bash
-py main.py
-(On Mac/Linux, use python3 main.py)
+## 🎮 How to Play
 
-🎮 How to Play
-The game randomly selects who goes first (Player 1 is Red, Player 2 is Blue).
+* The game randomly selects who goes first (Player 1 is Red, Player 2 is Blue).
+* Use your mouse to click on the column where you want to drop your token.
+* The first player to connect 4 tokens in a row (horizontally, vertically, or diagonally) wins!
+* Press `ESC` or click the `X` on the window to close the game.
 
-Use your mouse to click on the column where you want to drop your token.
+## 📁 File Structure Overview
 
-The first player to connect 4 tokens in a row (horizontally, vertically, or diagonally) wins!
-
-Press ESC or click the X on the window to close the game.
-
-📁 File Structure Overview
-main.py - The main game loop, event handling, and window rendering.
-
-board.py - The game board logic, handling token placement and state.
-
-token.py - Logic for the individual tokens on the board.
-
-*.png / *.jpg - Game assets, buttons, and win screens.
+* `main.py` - The main game loop, event handling, and window rendering.
+* `board.py` - The game board logic, handling token placement and state.
+* `token.py` - Logic for the individual tokens on the board.
+* `*.png` / `*.jpg` - Game assets, buttons, and win screens.
